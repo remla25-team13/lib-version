@@ -10,4 +10,4 @@ This repository contains a small utility library that provides version informati
 ## Installation
 
 ```bash
-pip install git+https://github.com/remla25-teamXX/lib-version.git@v1.0.0
+pip install git+https://github.com/remla25-team13/lib-version.git@v1.0.0
