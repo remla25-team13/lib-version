@@ -13,6 +13,12 @@ This repository contains a small utility library that provides version informati
 Install directly from GitHub using pip:
 
 ```bash
+pip install git+https://github.com/remla25-team13/lib-version.git
+```
+
+or specify a version:
+
+```bash
 pip install git+https://github.com/remla25-team13/lib-version.git@v1.0.0
 ```
 
