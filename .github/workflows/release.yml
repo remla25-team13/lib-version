@@ -28,7 +28,7 @@ jobs:
             echo "tagged=true" >> "$GITHUB_OUTPUT"
           else
             echo "Not a tagged release. Using fallback version."
-            VERSION="$(./get_semver.sh)"
+            VERSION="v0.0.0.dev0"
             echo "version=$VERSION" >> "$GITHUB_OUTPUT"
             echo "prerelease=true" >> "$GITHUB_OUTPUT"
             echo "tagged=false" >> "$GITHUB_OUTPUT"
