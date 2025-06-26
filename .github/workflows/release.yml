@@ -28,7 +28,7 @@ jobs:
             echo "tagged=true" >> "$GITHUB_OUTPUT"
           else
             echo "Not a tagged release. Using fallback version."
-            VERSION="$(date +v0.0.0-dev-%Y%m%d%H%M)"
+            VERSION="v0.0.0.dev0"
             echo "version=$VERSION" >> "$GITHUB_OUTPUT"
             echo "prerelease=true" >> "$GITHUB_OUTPUT"
             echo "tagged=false" >> "$GITHUB_OUTPUT"
